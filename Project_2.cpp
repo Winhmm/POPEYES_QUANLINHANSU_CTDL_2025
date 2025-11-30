@@ -1155,7 +1155,7 @@ private:
 							setColor(RED);
 							cout<<"Username khong duoc de trong"<<endl;
 							setColor(WHITE);
-							break;
+							continue;
 						}
 
 						if(!isValidUsernameFormat(strUser)) {
@@ -1168,9 +1168,9 @@ private:
 
 						if(_manager.isUsernameExist(trim(strUser))) {
 							setColor(RED);
-							cout<<"Username da ton tai, huy thao tac"<<endl;
+							cout<<"Username da ton tai, vui long nhap lai"<<endl;
 							setColor(WHITE); 
-							break;
+							strUser = "";
 						}
 					} while(strUser.empty());
 
