@@ -777,11 +777,11 @@ public:
 			saveToFile();
 			deleteDetailFile(strUsername);
 			setColor(GREEN);
-			cout<<"Da xa nhan vien thanh cong"<<endl;
+			cout<<"Da xoa nhan vien thanh cong"<<endl;
 			setColor(WHITE);
 		} else {
 			setColor(RED);
-			cout<<"Khong tin thay username nay"<<endl;
+			cout<<"Khong tim thay username nay"<<endl;
 			setColor(WHITE);
 		}
 	}
@@ -1130,7 +1130,7 @@ private:
 			cout<<"    2. Xoa Employee"<<endl;
 			cout<<"    3. Tim Employee"<<endl;
 			cout<<"    4. Cap nhat Employee"<<endl;
-			cout<<"    5. Hien thi thong Emplyee"<<endl;
+			cout<<"    5. Hien thi thong tin Emplyee"<<endl;
 			cout<<"    6. Undo xoa gan nhat"<<endl;
 			cout<<"    7. Thoat"<<endl;
 			setColor(CYAN);
