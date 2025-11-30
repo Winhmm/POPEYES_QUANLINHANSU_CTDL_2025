@@ -1070,7 +1070,7 @@ private:
 		while(iAttempts < 3) {
 			setColor(YELLOW);
 			cout<<"***************************"<<endl;
-        	cout<<"* DANG NHAP ADMIN       *"<<endl;
+        	cout<<"* DANG NHAP ADMIN         *"<<endl;
         	cout<<"***************************"<<endl;
 			setColor(WHITE);
 
@@ -1160,7 +1160,7 @@ private:
 
 						if(!isValidUsernameFormat(strUser)) {
 							setColor(RED); 
-							cout<<"Username khong dung dinh dang (khong chua dau cach, ky tu dac biet)"<<endl;
+							cout<<"Username khong dung dinh dang (khong chua dau cach, ky tu dac biet va toi thieu 3 ky tu)"<<endl;
 							setColor(WHITE);
 							strUser = ""; 
 							continue;
@@ -1351,7 +1351,7 @@ private:
 		while(iAttempts < 3) {
 			string strUser, strPass;
 			cout<<"\n***************************"<<endl;
-			cout<<"*  DANG NHAP EMPLOYEE     *"<<endl;
+			cout<<"*  DANG NHAP EMPLOYEE      *"<<endl;
 			cout<<"***************************"<<endl;
 			setColor(WHITE);
 			cout<<"User: ";
